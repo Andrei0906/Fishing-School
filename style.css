@@ -1,0 +1,276 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Mono",monospace;
+    font-size: 14px;
+}
+.menu-principal a::before{
+    content: "🐟";
+}
+.menu-principal  a::after{
+    content: "🎣";
+}   
+
+.menu-principal a:hover{
+    color: rgb(0, 0, 0);
+}
+
+h1{
+    font-size: 3em;
+
+}
+h2{
+    font-size: 2em;
+
+}
+h3{
+    font-size: 1.5em;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, rgb(12, 70, 20), rgb(127, 222, 122), rgb(48, 102, 48));
+    position: fixed;
+    z-index: 100;
+}
+ 
+  
+figure img{
+    width: 100px;
+
+}
+nav .menu-principal{
+    
+    display: flex;
+    justify-content: center;
+}
+nav .menu-principal li{
+    margin: 0px 10px;
+    list-style-type: none;
+
+}
+nav .menu-principal li a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.5em;
+
+
+  
+}
+section .background-img{
+    width: 100%;
+    overflow: hidden;
+   display: flex;
+    
+}
+section .background-img img{
+    width: 100%;
+}
+.hero{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info{
+    position: absolute;
+    top: 50%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+button{
+    padding: 10px 50px;
+    margin:10px 20px;
+    background: rgb(84, 142, 84);
+    font-weight: bold;
+    border: none;
+}
+button:hover{
+    background: rgb(89, 99, 189);
+}
+
+.noticias{
+    text-align: center;
+}
+.noticias h1,p{
+    color: rgb(84, 142, 84);
+
+
+}
+
+.noticias article li{
+    text-decoration: none;
+
+}
+.f{
+    background: linear-gradient(to right, rgb(16, 113, 29), rgb(127, 222, 122), rgb(4, 181, 4)); 
+}
+.f div form button{
+    background: white;
+
+}
+.f div form button:hover{
+    background: rgb(143, 247, 207);
+}
+.hero .background-img{
+    display: flex;
+    justify-content: center;
+    width: 100% ;
+    height: 100%;
+    
+}
+.in::before{
+    content: "";
+}
+.prezentare {
+    text-align: center;
+
+}
+
+
+
+
+.noticias p{
+    margin: 20px 3em;
+    text-align: justify;
+}
+ .img-noticia{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.meta-tags-post{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: red;
+}
+.meta-tags-post{
+    list-style-type:none; 
+}   
+
+.meta-tags-post{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+/* INSCRIERTE*/
+
+.footer-form{
+    width: 80%;
+    margin-left: 5%;
+    
+}
+
+.footer-form form{
+    width: 40%; 
+    display: flex;
+    flex-direction: column;
+}
+.footer-social{
+    display:inline-block;
+    width: 40%;
+    padding: 0px 0px 0px 25px;
+}
+
+/*****************************/
+article {
+    margin: 50px 100px;
+    display:flex;
+    flex-direction: row;
+}
+
+.img-noticia{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-post h2{
+    font-size: 1.5em;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.info-post p{
+    margin-left:0;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.meta-tags-post{
+    display: flex;
+    flex-direction: row;
+    color: rgb(30, 94, 137);
+    font-size: 12px;
+}
+
+.meta-tags-post li{
+    padding: 0px 10px 0px 0px;
+    list-style-type: none;
+}
+
+.meta-tags-post li::after{
+    content: " / ";
+    color:#AAAAAA;
+    font-weight: bold;
+}
+
+.meta-tags-post li:nth-child(4)::after{
+    content: "";
+}
+
+footer {
+    width:100%;
+    background: rgb(30, 94, 137);
+    color: white
+}
+
+.footer-form{
+    display: inline-block;
+    width: 40%;
+    padding: 0px 25px 0px 0px;
+    text-align: center;
+}
+
+.footer-form form{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-social{
+    display:inline-block;
+    width:45%;
+    padding: 0px 25px 0px 0px;
+}
+/*****************************************************/
+.footer-social{
+    display: inline-block;
+    width: 40%;
+    padding: 0px 0px 0px 25px;
+
+}
+.footer-social{
+    text-decoration: none;
+
+}
+.footer-social{
+    font-size: 2em;
+    padding: 5px;
+    color: white;
+}
+.footer-copyright{
+    margin-top: 50px;
+    padding: 20px;
+    height: 10px;
+    background: rgb(19, 86, 2);
+}
